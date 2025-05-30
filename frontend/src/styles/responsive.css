@@ -1,0 +1,250 @@
+
+/* Media query for extra small devices */
+@media (max-width: 575.98px) {
+  .hero-banner-content {
+    height: 430px;
+  }
+  .hero-carousel-container {
+    height: 450px;
+  }
+  .hero-carousel-container .carousel-inner,
+  .hero-carousel-container .carousel-item {
+    height: 100%;
+  }
+  .hero-carousel-container .carousel-overlay {
+    height: 100%;
+  }
+  .hero-carousel-container img {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+  }
+  .video-play-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .hero-carousel-container .carousel-indicators-custom button {
+    width: 10px;
+    height: 10px;
+  }
+  .hero-carousel-container .carousel-footer {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .testimonial-left-content {
+    border: none;
+  }
+  .testinomial-content-wrapper .carousel {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: -96%;
+    padding: 10px;
+    background-color: transparent;
+  }
+  .corousel-left-content-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .corousel-left-content-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .testinomial-content-wrapper h5 {
+    font-size: 16px;
+  }
+  .testinomial-content-wrapper p {
+    font-size: 10px;
+  }
+  .corousel-right-img-wrapper {
+    border: none;
+    padding: 10px;
+    text-align: center;
+  }
+  .carousel-nav-buttons {
+    top: auto;
+    bottom: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  .footer-link i {
+    font-size: 10px;
+  }
+}
+/* Media query for small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-banner-content {
+    height: 430px;
+  }
+  .hero-carousel-container {
+    height: 650px;
+  }
+  .hero-carousel-container .carousel-inner,
+  .hero-carousel-container .carousel-item {
+    height: 100%;
+  }
+  .hero-carousel-container .carousel-overlay {
+    height: 100%;
+  }
+  .hero-carousel-container img {
+    object-fit: cover;
+    height: 650px;
+    width: 100%;
+  }
+  .video-play-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .video-play-btn i {
+    font-size: 30px;
+  }
+  .hero-carousel-container .carousel-indicators-custom button {
+    width: 10px;
+    height: 10px;
+  }
+  .hero-carousel-container .carousel-footer {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .testimonial-left-content {
+    border: none;
+  }
+  .testinomial-content-wrapper .carousel {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: -96%;
+    padding: 10px;
+    background-color: transparent;
+  }
+  .corousel-left-content-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .testinomial-content-wrapper h5 {
+    font-size: 16px;
+  }
+  .testinomial-content-wrapper p {
+    font-size: 10px;
+  }
+  .corousel-right-img-wrapper {
+    border: none;
+    padding: 10px;
+    text-align: center;
+  }
+  .carousel-nav-buttons {
+    top: auto;
+    bottom: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  .footer-link i {
+    font-size: 10px;
+  }
+}
+/* Media query for medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-banner-content {
+    height: 450px;
+  }
+  .custom-btn-bg-white {
+    padding: 12px 11px;
+  }
+  .hero-carousel-container {
+    height: 450px;
+  }
+  .hero-carousel-container .carousel-inner,
+  .hero-carousel-container .carousel-item {
+    height: 100%;
+  }
+  .hero-carousel-container .carousel-overlay {
+    height: 100%;
+  }
+  .hero-carousel-container img {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+  }
+  .video-play-btn {
+    width: 20px;
+    height: 20px;
+  }
+  .video-play-btn i {
+    font-size: 26px;
+  }
+  .hero-carousel-container .carousel-indicators-custom button {
+    width: 10px;
+    height: 10px;
+  }
+  .hero-carousel-container .carousel-footer {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .testinomial-content-wrapper {
+    height: 420px;
+  }
+  .corousel-left-content-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .testinomial-content-wrapper h5 {
+    font-size: 16px;
+  }
+  .testinomial-content-wrapper p {
+    font-size: 10px;
+  }
+}
+/* Media query for large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-banner-content {
+    height: 500px;
+  }
+  .custom-btn-bg-white {
+    padding: 12px 11px;
+  }
+  .hero-carousel-container {
+    height: 500px;
+  }
+  .hero-carousel-container .carousel-inner,
+  .hero-carousel-container .carousel-item {
+    height: 100%;
+  }
+  .hero-carousel-container .carousel-overlay {
+    height: 100%;
+  }
+  .hero-carousel-container img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+  }
+  .video-play-btn {
+    width: 20px;
+    height: 20px;
+  }
+  .video-play-btn i {
+    font-size: 26px;
+  }
+  .hero-carousel-container .carousel-indicators-custom button {
+    width: 10px;
+    height: 10px;
+  }
+  .hero-carousel-container .carousel-footer {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .testinomial-content-wrapper {
+    height: 420px;
+  }
+  .corousel-left-content-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .testinomial-content-wrapper h5 {
+    font-size: 16px;
+  }
+  .testinomial-content-wrapper p {
+    font-size: 10px;
+  }
+}
